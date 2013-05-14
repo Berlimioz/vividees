@@ -1,0 +1,23 @@
+
+common: &common
+  adapter: postgresql
+  username:
+  password:
+  encoding: unicode
+  host: localhost
+  pool: 5
+
+development:
+  <<: *common
+  database: vividees_development
+
+test: &test
+  <<: *common
+  database: vividees_test
+
+production:
+  <<: *common
+  database: vividees_production
+
+cucumber:
+  <<: *test

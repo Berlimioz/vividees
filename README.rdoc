@@ -1,0 +1,11 @@
+== Bienvenue sur Vividees !
+
+Cette application a pour but d'aider à relancer l'inspiration. Vous fournissez
+les idées, les concepts, afin de vous constituer une base de données d'idées,
+et le jour où vous êtes en manque d'inspiration, vous pouvez confronter plusieurs
+de vos idées, sorties au hasard de votre liste personnelle.
+
+Bien souvent, le simple fait de lier deux idées en génère des nouvelles.
+
+Pour confronter vos idées, rien de plus simple : rechargez la page pour voir
+appraître de nouvelles combinaisons !

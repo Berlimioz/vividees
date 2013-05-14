@@ -1,0 +1,27 @@
+%h1
+  =@user.pseudo
+
+.new_idea
+  =form_for @new_idea do |f|
+
+    =f.label :text, 'Nouvelle idée'
+    =f.text_field :text
+    =f.submit 'Ajouter'
+
+.ideas
+  -unless @ideas
+    Pas encore d'idées à confronter...
+  -else
+    %h1 Idées à confronter
+    %h3
+      %i pour essayer d'autres combinaisons, rechargez la page
+
+    %p
+      ***************************************************************************
+    -@ideas.each do |idea|
+      .idea
+        =idea.text
+      %p
+        ***************************************************************************
+
+
